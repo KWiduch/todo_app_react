@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(186, 203, 169);
+  font-family: sans-serif;
+  color: rgb(113, 117, 104);
+  font-weight: bold;
+}
+.banner {
+  display: flex;
+  color: rgb(63, 71, 57);
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.form {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inputer {
+  /* font-size: 20px; */
+  padding-top: 20px;
+  border: none;
+  min-width: 400px;
+  background-color: transparent;
+  border-bottom: solid rgb(63, 71, 57) 2px;
+  text-decoration: none;
+  outline: none;
+}
+
+.inputer[type="text"] {
+  font-size: 1.2rem;
+  color: rgb(113, 117, 104);
+}
+
+.form-button {
+  background: rgb(113, 117, 104);
+  transition: all ease 0.3s;
+  padding: 13px 10px;
+  font-weight: bold;
+  color: rgb(225, 244, 203);
+  margin: 4px;
+  border: rgb(113, 117, 104) solid 2px;
+  /* text-decoration: none; */
+}
+
+.form-button:hover {
+  border: rgb(113, 117, 104) solid 2px;
+  color: rgb(113, 117, 104);
+  margin: 4px;
+  background-color: transparent;
+}
+
+.task-container-todo {
+  display: flex;
+  margin: 15px 0px;
+  /* margin-left: 20%; */
+  align-items: center;
+  justify-content: center;
+}
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.taskToDo {
+  list-style: none;
+  /* background-color: rgb(241, 191, 152); */
+  width: fit-content;
+  min-width: 300px;
+  border-bottom: solid rgb(63, 71, 57) 2px;
+  margin: 4px;
+  margin-right: 1px;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.check-btn {
+  background: rgb(113, 117, 104);
+  transition: all ease 0.3s;
+
+  padding: 10px 4px;
+  font-weight: bold;
+  color: rgb(225, 244, 203);
+  margin-left: 4px;
+  border: rgb(113, 117, 104) solid 2px;
+}
+.trash-btn {
+  background: rgb(113, 117, 104);
+  transition: all ease 0.3s;
+
+  padding: 10px 4px;
+  font-weight: bold;
+  color: rgb(225, 244, 203);
+  margin-left: 2px;
+  border: rgb(113, 117, 104) solid 2px;
+}
+
+.check-btn:hover {
+  border: rgb(113, 117, 104) solid 2px;
+  color: rgb(113, 117, 104);
+
+  background-color: transparent;
+}
+
+.trash-btn:hover {
+  border: rgb(113, 117, 104) solid 2px;
+  color: rgb(113, 117, 104);
+
+  background-color: transparent;
+}
