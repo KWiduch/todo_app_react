@@ -7,4 +7,4 @@
 * also works for smaller screens
 
 ### User Interface
-https://github.com/KWiduch/todo_app_react/blob/main/public/interfejstodo.png </br>
+![picture](https://github.com/KWiduch/todo_app_react/blob/main/public/interfejstodo.png )</br>
